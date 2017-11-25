@@ -21,7 +21,7 @@ body {
 
 .robot {
   width: 320px;
-  max-height: inherit;
+  height: inherit;
 }
 
 .robot-body {
@@ -59,15 +59,15 @@ body {
 .robot-head-left:hover {
   width: 125px;
   position: absolute;
-  left: 30%;
+  left: 20%;
   top: 27%;
-  transform: translate(30%, -27%);
+  transform: translate(20%, -27%);
 }
 
 .robot-head-right:hover {
   width: 125px;
   position: absolute;
-  left: 70%;
+  left: 60%;
   top: 27%;
-  transform: translate(70%, -27%);
+  transform: translate(60%, -27%);
 }
